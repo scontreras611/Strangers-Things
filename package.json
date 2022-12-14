@@ -11,7 +11,9 @@
   "name": "strangersthings",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "react-router-dom": "^5.3.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/scontreras611/Strangers-Things.git"
@@ -21,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/scontreras611/Strangers-Things/issues"
   },
-  "description": ""
+  "description": "",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
